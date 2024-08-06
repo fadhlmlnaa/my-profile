@@ -52,8 +52,8 @@ export default function Example() {
                         aria-current={item.current ? "page" : undefined}
                         className={classNames(
                           item.current
-                            ? "dark:bg-gray-900 dark:text-white bg-gray-600 text-white"
-                            : "dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white hover:bg-gray-600 hover:text-white",
+                            ? "dark:bg-gray-900 dark:text-white bg-gray-200 text-black"
+                            : "dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white hover:bg-gray-100 hover:text-black",
                           "rounded-md px-3 py-2 text-sm font-medium"
                         )}
                       >
