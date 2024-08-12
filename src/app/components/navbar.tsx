@@ -4,7 +4,6 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Hero from "./hero";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
@@ -17,7 +16,7 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function Navbar() {
   return (
     <>
       <header>
@@ -39,8 +38,8 @@ export default function Example() {
                   />
                 </DisclosureButton>
               </div>
-              <div className="flex flex-shrink-0 items-center">
-                <span className="font-bold text-xl">Fadhlmlnaa</span>
+              <div className="flex flex-shrink-0 items-center ">
+                <span className="font-bold text-xl text-right hidden lg:block text-slate-700 dark:text-slate-300">Fadhlmlnaa</span>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
                 <div className="hidden sm:ml-6 sm:block">
