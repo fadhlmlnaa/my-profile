@@ -14,10 +14,12 @@ export default function hero() {
                 Fadhil Maulana Syhafiq{" "}
               </span>{" "}
             </h1>
-            <span className="dark:text-gray-300 text-2xl text-gray-400 font-semibold">Mobile & Web Developers</span>
-            <p className="max-w-lg mt-4 text-xl font-normal text-gray-400 sm:mt-8">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
-              dignissimos pariatur?
+            <span className="dark:text-gray-300 text-2xl text-gray-400 font-semibold">
+              Mobile & Web Developers
+            </span>
+            <p className="max-w-lg mt-4 text-xl font-normal text-gray-400 sm:mt-8 italic">
+            ‟ Technology is the canvas on which I paint solutions that transform
+              ideas into reality ”
             </p>
             <div className="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
               <div className="absolute transition-all duration-200 rounded-full -inset-px group-hover:shadow-lg group-hover:shadow-cyan-500/50"></div>
